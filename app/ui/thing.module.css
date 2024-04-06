@@ -2,11 +2,23 @@
   padding: 10px;
   border-bottom: 2px solid #00000056;
   margin-bottom: 10px;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .thingContainer {
+    margin-bottom: 0;
+  }
 }
 
 .imgContainer {
   height: 270px;
   padding: 5px 30px;
+}
+
+@media (min-width: 552px) {
+  .imgContainer {
+    padding: 0;
+  }
 }
 
 .mainImg {
